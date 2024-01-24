@@ -1,0 +1,243 @@
+.logo__mi{
+    width: 32px;
+    margin-left: 22px;
+}
+@media screen and (max-width:1024px) {
+    #right-nav-icons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        position: absolute;
+        right: 100px;
+        top: 7px;
+    }
+}
+#right-nav-icons #nav-link{
+    color: black;
+}
+#right-nav-icons #nav-link:hover{
+    border-bottom: none;
+}
+#nav-link{
+    color: black;
+    border-bottom: solid 2px transparent;
+}
+#nav-link:hover{
+    color: #ff6900;
+    border-bottom: solid 2px #ff6900;
+}
+.logo__mi .logo__home{
+    transform: translateX(-110px);
+    transition: ease-in-out 0.5s;
+}
+.logo__mi:hover .logo__home{
+    transform: translateX(0px);
+    transition: ease-in-out 0.5s;
+}
+.carousel-caption{
+    position: absolute;
+    right: auto;
+    left: -30% !important;
+    text-align: left;
+    bottom: auto;
+    top: 32%;
+}
+.text-color{
+    color: black;
+}
+.text-font{
+    font-size: 30px;
+    font-weight: 400;
+}
+.text-color-2{
+    color: black;
+}
+.text-color-3{
+    font: 100px;
+}
+.text-pic{
+    position: absolute;
+    top: 4px;
+    right: 501px;
+}
+.text-pic h5{
+    color: black;
+}
+.buttons{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 3px 22px;
+    width: 118px;
+}
+.pic-desc{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 180px;
+    top: 40px;
+}
+.link-desc p a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.link-desc p a:hover{
+    text-decoration: underline;
+}
+.pic-desc-2{
+    position: absolute;
+    color: #fff;
+    left: 20px;
+    font-size: 50px;
+    top: 40px;
+    text-align: center;
+}
+.link-desc-2 p a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.link-desc-2 p a:hover{
+    text-decoration: underline;
+}
+.pic-desc-3{
+    position: absolute;
+    color: black;
+    left: 20px;
+    font-size: 50px;
+    top: 40px;
+    text-align: center;
+}
+.link-desc-3 p a{
+    color: #ff6900;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+.link-desc-3 p a:hover{
+    text-decoration: underline;
+}
+.box-shadow:hover{
+    box-shadow: 1px 1px 4px 2px rgb(0,0,0,0.2);
+}
+.box-link{
+    cursor: pointer;
+}
+.size{
+    font-size: 28px;
+}
+.small-img{
+    width: 50px;
+    margin-top: 10px;
+}
+.desc{
+    margin-top: 15px;
+}
+.desc a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.box-height{
+    height: 210px;
+    text-align: center;
+    padding-top: 70px;
+}
+.box-height a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.box-height a:hover{
+    text-decoration: underline;
+}
+.nav-fix{
+    position: fixed;
+}
+/*footer*/
+.footer h6{
+    color: #fff;
+}
+.footer ul{
+    padding: 0px;
+}
+.footer ul li{
+    list-style-type: none;
+    line-height: 2.2rem;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #898989;
+    font-size: 0.9rem;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.footer-social-icons{
+    font-size: 1.4rem;
+}
+.footer-social-icons a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    background-color: #d0d0d0;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+}
+.footer-social-icons a:hover{
+    background-color: #fff;
+}
+.subscrib{
+    border: solid 1px #fff;
+    border-radius: 10px;
+    background: initial;
+    width: 86%;
+    padding-inline-start: 14px;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.arrow{
+    color: #fff;
+}
+.subscrib:hover{
+    border: 1px solid #ff6900;
+}
+.border-qr{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 86%;
+}
+.qr{
+    width: 80px;
+    margin: 22px;
+}
+.footer-qr{
+    color: #898989;
+    font-size: 0.9rem;
+}
+.gplay{
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 16px;
+}
+.icon-play{
+    height: 24px;
+    margin-left: -44px;
+}
+.footer-end{
+    color: #fff;
+}
+.footer-end h6{
+    font-size: 13px;
+}
+.footer-end h6 i{
+    margin-left: 8px;
+}
